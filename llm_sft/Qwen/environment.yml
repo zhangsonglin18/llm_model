@@ -1,13 +1,13 @@
 channels:
   - nvidia/label/cuda-11.8.0
-  - pytorch # or pytorch-nightly
+  - base_model # or base_model-nightly
   - conda-forge
 dependencies:
-  - pytorch
+  - base_model
   - torchvision
   - torchaudio
   - cuda
-  - pytorch-cuda=11.8
+  - base_model-cuda=11.8
   - compilers
   - sysroot_linux-64==2.17
   - gcc==11.4
